@@ -1,0 +1,7 @@
+% vscode, code
+
+# Open a file with vscode
+
+$ file: find .
+
+code <file>

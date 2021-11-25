@@ -1,0 +1,4 @@
+% zsh, built
+
+# Reload zshrc config
+source ~/.zshrc
