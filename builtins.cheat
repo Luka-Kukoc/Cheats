@@ -2,3 +2,12 @@
 
 # Reload zshrc config
 source ~/.zshrc
+
+# Create file
+sudo touch 
+
+# Delete file
+rm 
+
+# Delete folder
+rmdir
