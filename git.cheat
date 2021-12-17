@@ -8,3 +8,6 @@ git merge origin/master
 # Commit all
 git add . 
 git commit -m "<message>"
+
+# Add all
+git add .

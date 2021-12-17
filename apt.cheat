@@ -1,0 +1,9 @@
+% apt
+
+# Install an apt package
+
+sudo apt install <package> -y
+
+
+# Find where a binary file exists
+which <file>

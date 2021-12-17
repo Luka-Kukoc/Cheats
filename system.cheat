@@ -1,0 +1,9 @@
+% system, systemctl 
+
+# System restart network manager
+
+sudo systemctl restart NetworkManager.service
+
+# File ownership change 
+
+sudo chown luka <file>
