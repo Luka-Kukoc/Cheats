@@ -1,0 +1,24 @@
+% python
+
+# Run server
+
+python manage.py runserver
+
+# Create venv
+
+python -m venv .venv && cd .
+
+# Activate venv
+
+source .venv/bin/activate
+
+# Check if venv is activate
+
+echo $(python <<EOF
+import sys
+if sys.prefix == sys.base_prefix:
+    print("No, you are not in a virtual environment.")
+else:
+    print("Yes, you are in a virtual environment.")
+EOF
+)

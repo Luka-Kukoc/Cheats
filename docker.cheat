@@ -1,0 +1,29 @@
+% docker
+
+# Push to docker hub
+
+docker push <image-name>
+
+# Build with a tag
+
+docker build -t <tag> .
+
+# Find running containers
+
+docker ps
+
+# Stop running container
+
+docker stop <container-name>
+
+# Interact with container
+
+docker exec -it <name of the container>
+
+# Docker run container and map port to
+
+docker run -p <ports> <image-name>
+
+# Docker run as daemon
+
+docker run -p <port> --name <specify-name> -d <iamge-name>

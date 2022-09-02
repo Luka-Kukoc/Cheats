@@ -5,3 +5,20 @@
 $ file: find .
 
 code <file>
+
+# Update vscode
+wget 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64' -O /tmp/code_latest_amd64.deb
+sudo dpkg -i /tmp/code_latest_amd64.deb
+
+# Create prettier file
+
+touch .prettierrc
+echo '{
+  "semi": false,
+  "tabWidth": 2,
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "jsxSingleQuote": true,
+  "bracketSpacing": true
+}' > .prettierrc

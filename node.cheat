@@ -1,0 +1,5 @@
+% node, npm
+
+# Change node version
+
+fnm use v<specify-node-version-number>

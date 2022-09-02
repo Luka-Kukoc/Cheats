@@ -11,3 +11,14 @@ git commit -m "<message>"
 
 # Add all
 git add .
+
+# Create remote branch and push to it from local
+git push -u origin <local-branch-name>
+
+# Pull specific remote branch
+git fetch origin
+git switch -c <name-localy> <name-remote-usually-origin-slash-something>
+
+# List all remote branches
+git fetch origin
+git branch -v -a

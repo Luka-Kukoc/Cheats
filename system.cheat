@@ -7,3 +7,7 @@ sudo systemctl restart NetworkManager.service
 # File ownership change 
 
 sudo chown luka <file>
+
+# Run Telegram
+
+~/Downloads/Telegram/Telegram
